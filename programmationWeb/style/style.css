@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background:  gainsboro  no-repeat top left;
+}
+body h1:hover
+{
+    text-decoration: underline;
+}
+navigation
+{
+
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 2%;
+}
+.image_baniere
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url('images/image1.jpg');
+    background:  url('images/image1.jpg')  no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+header
+{
+    
+    box-shadow: 6px 6px 6px black;
+    
+}
+.bloc_decoration
+{
+    border : 3px blue double;
+    background-color: cyan;
+    
+}
+.index_header h1
+{
+    font-size: medium;
+    
+}
+article
+{
+    width: 73%;
+    background:  gainsboro  no-repeat top left;
+    padding: 0.5%;
+    float: left;
+    overflow: auto;
+    box-shadow: 6px 6px 6px black;
+    
+}
+aside
+{
+    width: 24%;
+    background: gainsboro  no-repeat top left;
+    padding: 0.5%;
+    float: right;
+    box-shadow: 6px 6px 6px black;
+}
